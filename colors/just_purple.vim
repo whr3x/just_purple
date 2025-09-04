@@ -131,10 +131,10 @@ hi Search gui=NONE guifg=#FFFFFF guibg=#AF0000
 hi SnippetTabstop gui=NONE guifg=#000000 guibg=#E4E4E4
 hi SnippetTabstopActive gui=NONE guifg=#000000 guibg=NONE
 hi SpecialKey gui=bold guifg=#AF0000 guibg=NONE
-hi SpellBad gui=undercurl guifg=#000000 guibg=#NONE guisp=#AF0000
-hi SpellCap gui=undercurl guifg=#000000 guibg=#NONE guisp=#5F00D7
-hi SpellLocal gui=undercurl guifg=#000000 guibg=#NONE guisp=#00AF00
-hi SpellRare gui=undercurl guifg=#000000 guibg=#NONE guisp=#0000AF
+hi SpellBad gui=undercurl guifg=#000000 guibg=NONE guisp=#AF0000
+hi SpellCap gui=undercurl guifg=#000000 guibg=NONE guisp=#5F00D7
+hi SpellLocal gui=undercurl guifg=#000000 guibg=NONE guisp=#00AF00
+hi SpellRare gui=undercurl guifg=#000000 guibg=NONE guisp=#0000AF
 hi StatusLine gui=NONE guifg=#000000 guibg=NONE
 hi StatusLineNC gui=NONE guifg=#808080 guibg=NONE
 hi StatusLineTerm gui=NONE guifg=#000000 guibg=NONE
