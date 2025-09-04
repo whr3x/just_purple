@@ -155,141 +155,143 @@ hi Menu gui=NONE guifg=#000000 guibg=NONE
 hi Scrollbar gui=NONE guifg=#000000 guibg=#BCBCBC
 hi Tooltip gui=NONE guifg=#000000 guibg=NONE
 
-" Lazy
-hi LazyButton gui=NONE guifg=#000000 guibg=#FFFFFF
-hi LazySpecial gui=bold guifg=#5F00D7 guibg=NONE
+if has("nvim")
+	" Lazy
+	hi LazyButton gui=NONE guifg=#000000 guibg=#FFFFFF
+	hi LazySpecial gui=bold guifg=#5F00D7 guibg=NONE
 
-" Telescope
+	" Telescope
 
-hi TelescopeTitle gui=NONE guifg=#FFFFFF guibg=#5F00D7
-hi TelescopePromptTitle gui=NONE guifg=#FFFFFF guibg=#5F00D7
-hi TelescopeResultsTitle gui=NONE guifg=#FFFFFF guibg=#5F00D7
-hi TelescopePreviewTitle gui=NONE guifg=#FFFFFF guibg=#5F00D7
+	hi TelescopeTitle gui=NONE guifg=#FFFFFF guibg=#5F00D7
+	hi TelescopePromptTitle gui=NONE guifg=#FFFFFF guibg=#5F00D7
+	hi TelescopeResultsTitle gui=NONE guifg=#FFFFFF guibg=#5F00D7
+	hi TelescopePreviewTitle gui=NONE guifg=#FFFFFF guibg=#5F00D7
 
-hi TelescopeBorder gui=NONE guifg=#BCBCBC guibg=#FFFFFF
-hi TelescopePromptBorder gui=NONE guifg=#BCBCBC guibg=NONE
+	hi TelescopeBorder gui=NONE guifg=#BCBCBC guibg=#FFFFFF
+	hi TelescopePromptBorder gui=NONE guifg=#BCBCBC guibg=NONE
 
-hi TelescopeSelection gui=bold guifg=#5F00D7 guibg=NONE
-hi TelescopeNormal gui=NONE guifg=#000000 guibg=NONE
-hi TelescopeMatching gui=bold guifg=#FFFFFF guibg=#5F00D7
-hi TelescopeResultsNumber gui=NONE guifg=#000000 guibg=NONE
-hi TelescopeResultsNormal gui=NONE guifg=#303030 guibg=NONE
-hi TelescopePreviewDirectory gui=NONE guifg=#303030 guibg=NONE
+	hi TelescopeSelection gui=bold guifg=#5F00D7 guibg=NONE
+	hi TelescopeNormal gui=NONE guifg=#000000 guibg=NONE
+	hi TelescopeMatching gui=bold guifg=#FFFFFF guibg=#5F00D7
+	hi TelescopeResultsNumber gui=NONE guifg=#000000 guibg=NONE
+	hi TelescopeResultsNormal gui=NONE guifg=#303030 guibg=NONE
+	hi TelescopePreviewDirectory gui=NONE guifg=#303030 guibg=NONE
 
-" Diagnostic
-hi DiagnosticError gui=NONE guifg=#AF0000 guibg=NONE
-hi DiagnosticWarn gui=NONE guifg=#808080 guibg=NONE
-hi DiagnosticInfo gui=NONE guifg=#808080 guibg=NONE
-hi DiagnosticHint gui=NONE guifg=#808080 guibg=NONE
-hi DiagnosticOk gui=NONE guifg=#808080 guibg=NONE
+	" Diagnostic
+	hi DiagnosticError gui=NONE guifg=#AF0000 guibg=NONE
+	hi DiagnosticWarn gui=NONE guifg=#808080 guibg=NONE
+	hi DiagnosticInfo gui=NONE guifg=#808080 guibg=NONE
+	hi DiagnosticHint gui=NONE guifg=#808080 guibg=NONE
+	hi DiagnosticOk gui=NONE guifg=#808080 guibg=NONE
 
-hi DiagnosticVirtualTextError gui=NONE guifg=#AF0000 guibg=NONE
-hi DiagnosticVirtualTextWarn gui=NONE guifg=#808080 guibg=NONE
-hi DiagnosticVirtualTextInfo gui=NONE guifg=#808080 guibg=NONE
-hi DiagnosticVirtualTextHint gui=NONE guifg=#808080 guibg=NONE
-hi DiagnosticVirtualTextOk gui=NONE guifg=#808080 guibg=NONE
+	hi DiagnosticVirtualTextError gui=NONE guifg=#AF0000 guibg=NONE
+	hi DiagnosticVirtualTextWarn gui=NONE guifg=#808080 guibg=NONE
+	hi DiagnosticVirtualTextInfo gui=NONE guifg=#808080 guibg=NONE
+	hi DiagnosticVirtualTextHint gui=NONE guifg=#808080 guibg=NONE
+	hi DiagnosticVirtualTextOk gui=NONE guifg=#808080 guibg=NONE
 
-hi DiagnosticSignError gui=NONE guifg=#AF0000 guibg=NONE
-hi DiagnosticSignWarn gui=NONE guifg=#808080 guibg=NONE
-hi DiagnosticSignInfo gui=NONE guifg=#808080 guibg=NONE
-hi DiagnosticSignHint gui=NONE guifg=#808080 guibg=NONE
-hi DiagnosticSignOk gui=NONE guifg=#808080 guibg=NONE
+	hi DiagnosticSignError gui=NONE guifg=#AF0000 guibg=NONE
+	hi DiagnosticSignWarn gui=NONE guifg=#808080 guibg=NONE
+	hi DiagnosticSignInfo gui=NONE guifg=#808080 guibg=NONE
+	hi DiagnosticSignHint gui=NONE guifg=#808080 guibg=NONE
+	hi DiagnosticSignOk gui=NONE guifg=#808080 guibg=NONE
 
-hi DiagnosticUnerlineError gui=underline guifg=#AF0000 guibg=NONE
-hi DiagnosticUnerlineWarn gui=underline guifg=#808080 guibg=NONE
-hi DiagnosticUnerlineInfo gui=underline guifg=#808080 guibg=NONE
-hi DiagnosticUnerlineHint gui=underline guifg=#808080 guibg=NONE
-hi DiagnosticUnerlineOk gui=underline guifg=#808080 guibg=NONE
+	hi DiagnosticUnerlineError gui=underline guifg=#AF0000 guibg=NONE
+	hi DiagnosticUnerlineWarn gui=underline guifg=#808080 guibg=NONE
+	hi DiagnosticUnerlineInfo gui=underline guifg=#808080 guibg=NONE
+	hi DiagnosticUnerlineHint gui=underline guifg=#808080 guibg=NONE
+	hi DiagnosticUnerlineOk gui=underline guifg=#808080 guibg=NONE
 
-" Treesitter
+	" Treesitter
 
-hi @variable gui=NONE guifg=#000000 guibg=NONE
-hi @variable.builtin gui=bold guifg=#5F00D7 guibg=NONE
-hi @variable.parameter gui=NONE guifg=#000000 guibg=NONE
-hi @variable.parameter.builtin gui=bold guifg=#5F00D7 guibg=NONE
-hi @variable.member gui=NONE guifg=#000000 guibg=NONE
+	hi @variable gui=NONE guifg=#000000 guibg=NONE
+	hi @variable.builtin gui=bold guifg=#5F00D7 guibg=NONE
+	hi @variable.parameter gui=NONE guifg=#000000 guibg=NONE
+	hi @variable.parameter.builtin gui=bold guifg=#5F00D7 guibg=NONE
+	hi @variable.member gui=NONE guifg=#000000 guibg=NONE
 
-hi link @constant Constant
-hi link @constant.builtin Statement
-hi link @constant.macro Constant
+	hi link @constant Constant
+	hi link @constant.builtin Statement
+	hi link @constant.macro Constant
 
-hi link @module PreProc
-hi link @module.builtin PreProc
-hi link @label Label
+	hi link @module PreProc
+	hi link @module.builtin PreProc
+	hi link @label Label
 
-hi link @string String
-hi link @string.documentation String
-hi link @string.regexp Special
-hi link @string.escape Special
-hi link @string.special Special
-hi link @string.special.symbol Special
-hi link @string.special.path Special
-hi @string.special.url gui=underline guifg=#000000 guibg=#FFFFFF
+	hi link @string String
+	hi link @string.documentation String
+	hi link @string.regexp Special
+	hi link @string.escape Special
+	hi link @string.special Special
+	hi link @string.special.symbol Special
+	hi link @string.special.path Special
+	hi @string.special.url gui=underline guifg=#000000 guibg=#FFFFFF
 
-hi link @character Character
-hi link @character.special SpecialChar
+	hi link @character Character
+	hi link @character.special SpecialChar
 
-hi link @boolean Boolean
-hi link @number Number
-hi link @number.float Float
+	hi link @boolean Boolean
+	hi link @number Number
+	hi link @number.float Float
 
-hi link @type Type
-hi link @type.builtin  Typedef
-hi link @type.definition Type
+	hi link @type Type
+	hi link @type.builtin  Typedef
+	hi link @type.definition Type
 
-hi @attribute gui=NONE guifg=#000000 guibg=NONE
-hi link @attribute.builtin Statement
-hi @property gui=NONE guifg=#000000 guibg=NONE
+	hi @attribute gui=NONE guifg=#000000 guibg=NONE
+	hi link @attribute.builtin Statement
+	hi @property gui=NONE guifg=#000000 guibg=NONE
 
-hi link @function Identifier
-hi link @function.builtin Function
-hi link @function.call Identifier
-hi link @function.macro Identifier
+	hi link @function Identifier
+	hi link @function.builtin Function
+	hi link @function.call Identifier
+	hi link @function.macro Identifier
 
-hi link @function.method Function
-hi link @function.method.call Function
+	hi link @function.method Function
+	hi link @function.method.call Function
 
-hi link @constructor Operator
-hi link @operator Operator
+	hi link @constructor Operator
+	hi link @operator Operator
 
-hi link @keyword Keyword
-hi link @keyword.coroutine Function
-hi link @keyword.function Function
-hi link @keyword.operator Operator
-hi link @keyword.import PreProc
-hi link @keyword.type Structure
-hi link @keyword.modifier Typedef
-hi link @keyword.repeat Repeat
-hi link @keyword.return Statement
-hi link @keyword.debug Debug
-hi link @keyword.exception Exception
+	hi link @keyword Keyword
+	hi link @keyword.coroutine Function
+	hi link @keyword.function Function
+	hi link @keyword.operator Operator
+	hi link @keyword.import PreProc
+	hi link @keyword.type Structure
+	hi link @keyword.modifier Typedef
+	hi link @keyword.repeat Repeat
+	hi link @keyword.return Statement
+	hi link @keyword.debug Debug
+	hi link @keyword.exception Exception
 
-hi link @keyword.conditional Conditional
-hi link @keyword.conditional.ternary Conditional
+	hi link @keyword.conditional Conditional
+	hi link @keyword.conditional.ternary Conditional
 
-hi link @keyword.directive PreProc
-hi link @keyword.directive.define PreProc
+	hi link @keyword.directive PreProc
+	hi link @keyword.directive.define PreProc
 
-hi @punctuation.delimiter gui=bold guifg=#808080 guibg=NONE
-hi @punctuation.bracket gui=bold guifg=#808080 guibg=NONE
-hi @punctuation.special gui=bold guifg=#808080 guibg=NONE
+	hi @punctuation.delimiter gui=bold guifg=#808080 guibg=NONE
+	hi @punctuation.bracket gui=bold guifg=#808080 guibg=NONE
+	hi @punctuation.special gui=bold guifg=#808080 guibg=NONE
 
-hi link @comment Comment
-hi link @comment.documentation Comment
+	hi link @comment Comment
+	hi link @comment.documentation Comment
 
-hi @comment.error gui=bold guifg=#FFFFFF guibg=#AF0000
-hi @comment.warning gui=bold guifg=#FFFFFF guibg=#AF0000
-hi @comment.todo gui=bold guifg=#FFFFFF guibg=#5F00D7
-hi @comment.note gui=bold guifg=#FFFFFF guibg=#5F00D7
+	hi @comment.error gui=bold guifg=#FFFFFF guibg=#AF0000
+	hi @comment.warning gui=bold guifg=#FFFFFF guibg=#AF0000
+	hi @comment.todo gui=bold guifg=#FFFFFF guibg=#5F00D7
+	hi @comment.note gui=bold guifg=#FFFFFF guibg=#5F00D7
 
-hi @markup.heading gui=NONE guifg=#5F00D7 guibg=#FFFFFF
-hi @markup.link.label.markdown_inline gui=bold,underline guifg=#5F00D7
+	hi @markup.heading gui=NONE guifg=#5F00D7 guibg=#FFFFFF
+	hi @markup.link.label.markdown_inline gui=bold,underline guifg=#5F00D7
 
-hi link @diff.plus DiffAdd
-hi link @diff.minus DiffDelete
-hi link @diff.delta DiffText
+	hi link @diff.plus DiffAdd
+	hi link @diff.minus DiffDelete
+	hi link @diff.delta DiffText
 
-hi link @tag Tag
-hi link @tag.builtin Tag
-hi link @tag.attribute Tag
-hi link @tag.delimiter Tag
+	hi link @tag Tag
+	hi link @tag.builtin Tag
+	hi link @tag.attribute Tag
+	hi link @tag.delimiter Tag
+endif
