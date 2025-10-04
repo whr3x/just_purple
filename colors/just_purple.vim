@@ -2,7 +2,7 @@
 
 " Used colors:
 " Purple - #5F00D7
-" Red - #AF0000
+" Red - #AF0000 #87005F
 " Green - #00AF00
 " Blue - #0000AF
 " Gray - #E4E4E4 #D0D0D0 #BCBCBC #A8A8A8 #808080 #585858
@@ -24,7 +24,7 @@ let g:colors_name = 'just_purple'
 hi Comment gui=italic guifg=#585858 guibg=NONE
 
 hi Constant gui=NONE guifg=#5F00D7 guibg=NONE
-hi String gui=NONE guifg=#5F00D7 guibg=NONE
+hi String gui=NONE guifg=#87005F guibg=NONE
 hi Character gui=bold guifg=#5F00D7 guibg=NONE
 hi Number gui=NONE guifg=#5F00D7 guibg=NONE
 hi Boolean gui=bold guifg=#5F00D7 guibg=NONE
@@ -37,7 +37,7 @@ hi Statement gui=bold guifg=#5F00D7 guibg=NONE
 hi Conditional gui=bold guifg=#5F00D7 guibg=NONE
 hi Repeat gui=bold guifg=#5F00D7 guibg=NONE
 hi Label gui=NONE guifg=#5F00D7 guibg=NONE
-hi Operator gui=NONE guifg=#808080 guibg=NONE
+hi Operator gui=bold guifg=#87005F guibg=NONE
 hi Keyword gui=bold guifg=#5F00D7 guibg=NONE
 hi Exception gui=bold guifg=#5F00D7 guibg=NONE
 
@@ -102,7 +102,7 @@ hi LineNrBelow gui=NONE guifg=#A8A8A8 guibg=NONE
 hi CursorLineNr gui=NONE guifg=#000000 guibg=NONE
 hi CursorLineFold gui=NONE guifg=#A8A8A8 guibg=NONE
 hi CursorLineSign gui=NONE guifg=#A8A8A8 guibg=NONE
-hi MatchParen gui=bold,underline guifg=#5F00D7 guibg=NONE
+hi MatchParen gui=bold,underline guifg=#FFFFFF guibg=#5F00D7
 hi ModeMsg gui=NONE guifg=#FFFFFF guibg=#5F00D7
 hi MsgArea gui=NONE guifg=#000000 guibg=NONE
 hi MsgSeparator gui=NONE guifg=#BCBCBC guibg=NONE
